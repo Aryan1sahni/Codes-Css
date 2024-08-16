@@ -1,0 +1,21 @@
+body{
+    min-height: 1000px;
+}
+
+
+.child{
+    position: absolute;
+    top: 0px;    
+    padding-left: 50px;
+}
+.Parent button{
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+.fixed{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}

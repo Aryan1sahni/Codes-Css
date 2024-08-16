@@ -1,0 +1,25 @@
+body{
+    background-color: lightpink
+}
+.new-layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.new-layout div{
+    background-color: lightgreen;
+    height: 200px;
+    
+    flex-basis: 200px; /* this is basically width depends on direction */
+    border: 10px solid black;
+    margin: 10px;
+}
+.first{
+    flex-shrink: 1;
+}
+.second{
+    flex-shrink: 2;
+}
+.third{
+    flex-shrink: 3;
+}

@@ -1,0 +1,43 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    text-align: right;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+button{
+    size: 40px;
+    font-size: 20px;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 40px;
+    
+}
+#Headingone{
+    color: yellow;
+}
+#box{
+    background-color: rgb(63, 150, 60);
+ 
+}
+.heading{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration: line-through;
+}
+h3{
+    text-decoration: blue dotted underline;
+}
+a{
+    text-decoration: none;
+}

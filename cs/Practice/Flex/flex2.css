@@ -1,0 +1,17 @@
+/* Parent*/
+.container{
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column; /* default is row*/
+    flex-wrap: wrap; /* Move items to next line if the page size goes small*/
+    gap: 10px  /* stick from the parent body and margin between child of 10px*/ 
+    ;
+    justify-content: space-around; /* equal space on left as well as the right*/
+    
+}
+/* Child*/
+.box{
+    border: 2px solid green;
+    margin: 12px;
+}

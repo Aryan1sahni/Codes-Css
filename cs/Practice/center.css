@@ -1,0 +1,15 @@
+.Parent{
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    
+}

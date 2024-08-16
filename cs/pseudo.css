@@ -1,0 +1,51 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+.primary-button:link{      /*State before clicking on a link*/
+    text-decoration: none;
+}
+.primary-button:visited{        /*State after clicking on a link*/
+    color: green;
+}
+.primary-button:hover{
+    color: red;
+    background-color: black;
+}
+.primary-button:active{
+    color: black;
+    background-color: white;
+}
+ul li:first-child{
+    background-color: violet;
+}
+ul li:last-child{
+    background-color: aqua;
+}
+/* nth child
+   an+b*/
+
+ul li:nth-child(4){
+    background-color: green;
+}
+h2::first-letter{
+    color: yellow;
+    font-size: 2rem;
+}
+::selection{
+    background-color: black;
+    color: wheat;
+}
+p::first-line{
+    background-color: brown;
+}
+h3::before{
+    content:'Any ';
+}
+h3::after{
+    content: '.';
+}
+.required::after{
+    content: '*';
+    color: red;
+}
